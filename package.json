@@ -1,0 +1,33 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "A basic chat allowing users to send messages and images via Socket.IO websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node worker.js\" \"node server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robjweiss/websockets.git"
+  },
+  "keywords": [
+    "websockets",
+    "socket.io"
+  ],
+  "author": "Rob Weiss",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/robjweiss/websockets/issues"
+  },
+  "homepage": "https://github.com/robjweiss/websockets#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.5.0",
+    "node-redis-pubsub": "^4.0.0",
+    "node-uuid": "^1.4.8",
+    "socket.io": "^2.2.0"
+  }
+}
