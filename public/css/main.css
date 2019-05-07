@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+form {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    margin: 5px;
+}
